@@ -53,3 +53,13 @@ To ensure the observed causal premium was not a statistical artifact or driven b
   <br>
   <p><i>Figure 2: Placebo Test Distribution via FWL Theorem. The true causal effect (0.4109) significantly outperforms all placebo permutations (p = 0.0000).</i></p>
 </div>
+
+## 🚀 How to Run & Core Pipeline
+The entire end-to-end econometric pipeline—from data engineering and dynamic event studies to the FWL-accelerated placebo permutations—is consolidated into a single executable notebook.
+
+👉 **[View the Core Code: causal_inference_pipeline.ipynb](notebooks/causal_inference_pipeline.ipynb)**
+
+To run locally:
+1. Clone the repository.
+2. Install dependencies via `pip install -r requirements.txt`.
+3. Execute the notebook sequentially. All relative paths are configured for plug-and-play reproducibility.
